@@ -36,7 +36,7 @@
             ]
         ];
 
-        for ($i = 0; $i < 4; $i++) {
+        for ($i = 0; $i < count($matches); $i++) {
             echo "<div>" . $matches[$i]["home"] . " - " . $matches[$i]["away"] . " | " . $matches[$i]["homePoints"] . "-" . $matches[$i]["awayPoints"] . "</div>";
         }
     ?>
